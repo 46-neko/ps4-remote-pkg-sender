@@ -79,6 +79,8 @@ a HTTP Protocol error on the serving point.  In case of the RPS v2, if it occurs
 If you get the error message from any other package sender, this is due
 the lack of missing multipart stream support.  
 
+If you are on Linux, you may need to run the app as `sudo` as you may lack permissions to the ports for serving.
+
 ## My RPI crashes on console  
 This happend to a couple of users when we try to hit RPI too hard.    
 RPI cann't handle too many concurrent requests and crashes after a while    
